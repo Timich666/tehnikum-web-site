@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "TT Hoves", sans-serif;
+
+}
+
+section {
+    padding: 0 calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
+}
+
+section.hello {
+    padding-top: 40px;
+    background-image: url(../img/html_css_js\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top  calc(77px + (121 - 77) * ((100vw - 375px) / (1280 - 375))) right calc(3.5px + (58 - 3.5) * ((100vw - 375px) / (1280 - 375))); 
+   
+    background-size: 35%;
+
+}
+
+.logo {
+    height: calc(30px + (41 - 30) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.courseInfo {
+    display: flex;
+    gap: 30px 161px;
+    flex-wrap: wrap;
+    margin-top: calc(28px + (85 - 28) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(48px + (76 - 48) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.courseData {
+    font-size: 21px;
+    line-height: 140%;
+}
+
+.courseData .value {
+    font-weight: 700;
+}
+
+
+h1 {
+    font-family: "Chava", sans-serif;
+    font-size: calc(42px + (80 - 42) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 110%;
+}
+
+p {
+    margin-top: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 300;
+    line-height: 140%;
+}
+
+.cta {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 320px;
+    padding: 20px 0;
+    border-radius: 12px;
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 117%;
+}
+
+button.purple {
+    background: #6E3ABA;
+    color: white;
+    border: 1px solid #6E3ABA;
+}
+
+button.white {
+    background: white;
+    color: #6E3ABA;
+    border: 1px solid #6E3ABA;
+}
+
+section.hello2 {
+    margin-bottom: 122px;
+}
+
+h2 {
+    font-weight: 500px;
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 117%;
+    
+    
+}
+
+.container {
+    margin-top: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 52px 70px;
+    max-width: 1280px;
+    justify-content: space-between;
+    
+}
+
+
+.pic {
+    height: calc(180px + (210 - 180) * ((100vw - 375px) / (1280 - 375)));
+}
+
+h4 {
+    font-weight: 600px;
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 150%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+p {
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+}
+
+
+.card {
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    
+}
+
