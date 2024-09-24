@@ -174,13 +174,17 @@ color: white;
 }
 
 .info {
+    /* display: flex;
+    flex-wrap: wrap; */
+
     display: flex;
     flex-wrap: wrap;
+    gap: 30px 120px;
+    justify-content: space-between;
 }
 
 .infocard {
-    justify-content: space-evenly;
     width: 45%;
     margin-top: calc(20px + (90 - 20) * ((100vw - 375px) / (1280 - 375)));
-    gap: 30px 120px;
+
 }
