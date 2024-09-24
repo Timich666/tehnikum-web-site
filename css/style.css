@@ -136,3 +136,51 @@ p {
 
 }
 
+
+.SaleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6E3ABA;
+    padding: calc(4.4vw + 23.40px) 0 calc(5.2vw + 21.5px);
+}
+
+h3 {
+font-size: calc(2vw + 26.5px);
+font-weight: 700;
+line-height: 117%;
+color: white;
+
+}
+
+.time {
+    display: flex;
+    gap: 85px;
+    margin-bottom: calc(4vw + 6px);
+    margin-top: calc(4.1vw + 4.60px);
+}
+
+.date {
+    font-size: calc(12.6vw + 12.8px);
+    font-family: "Chava", sans-serif;
+}
+
+.timecard span {
+    font-size: calc(1.9vw + 3px);
+    display: block;
+    text-align: center;
+
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infocard {
+    justify-content: space-evenly;
+    width: 45%;
+    margin-top: calc(20px + (90 - 20) * ((100vw - 375px) / (1280 - 375)));
+    gap: 30px 120px;
+}
