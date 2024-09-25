@@ -258,26 +258,91 @@ margin-bottom: 20px;
 
 }
 
-.exampleInfo {
-    flex-basis: 300px;
-    flex-grow: 3;
-}
 
 .example {
     flex-basis: 250px;
     flex-grow: 1;
 }
 
-.exampleInfo p {
-    display: block;
-    
-}
 
 .example img {
     width: 100%;
+    margin-top: 13px;
 }
 
 .exampleInfo {
+    flex-basis: 300px;
+    flex-grow: 3;
+}
+
+.exampleInfo p {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 43px;
+
+}
+.exampleInfo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+ 
+    
+}
+
+section.diplom {
+    display: grid;
+}
+
+.ptext h2 {
+    margin-bottom: calc(2.2vw + 11.7px);
+
+}
+
+.ptext p {
+    margin-bottom: calc(1.8vw + 13.3px);
+}
+
+.salaryPhoto img {
+    height: calc(23.6vw + 7.32px);
+}
+
+.bonusMain {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.bonusPhoto {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.bonusPhoto img {
+    height: calc(11.7vw + 204px);
+
+}
+
+.bonusinfo {
+    flex-basis: 300px;
+    flex-grow: 3;
+}
+
+
+.bonusinfo p {
+    font-size: 21px;
+    line-height: 140%;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+    .exampleInfo h4 {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
 }
