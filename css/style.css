@@ -9,6 +9,10 @@ body {
 
 section {
     padding: 0 calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
+
+}
+section.hello2, .hello4, .diplom, .SaleContainer {
+    margin-top: calc(11vw + 18.5px);
 }
 
 section.hello {
@@ -85,9 +89,6 @@ button.white {
     border: 1px solid #6E3ABA;
 }
 
-section.hello2 {
-    
-}
 
 h2 {
     font-weight: 500px;
@@ -176,9 +177,6 @@ color: white;
 
 }
 
-section.hello4 {
-    margin-top: calc(11vw + 18.5px);
-}
 
 .info {
     display: flex;
@@ -194,6 +192,7 @@ section.hello4 {
     
 
 }
+
 
 .teacherinfo {
     display: flex;
@@ -243,3 +242,42 @@ section.hello4 {
 }
 
 
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.exampleInfo h4 {
+font-size: 58px;
+font-weight: 500;
+line-height: 117%;
+text-transform: uppercase;
+margin-bottom: 20px;
+
+}
+
+.exampleInfo {
+    flex-basis: 300px;
+    flex-grow: 3;
+}
+
+.example {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.exampleInfo p {
+    display: block;
+    
+}
+
+.example img {
+    width: 100%;
+}
+
+.exampleInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
