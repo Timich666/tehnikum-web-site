@@ -94,6 +94,9 @@ h2 {
     font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
     line-height: 117%;
     margin-top: calc(1.1vw + 18.5px);
+    margin-bottom: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+    text-transform: uppercase;
+
     
     
 }
@@ -191,3 +194,52 @@ section.hello4 {
     
 
 }
+
+.teacherinfo {
+    display: flex;
+    gap: calc(20px + (51 - 20) * ((100vw - 375px) / (1280 - 375)));
+    flex-wrap: wrap;
+}
+
+.teacherPhoto {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.teacherPhoto img {
+    width: 100%;
+}
+
+.teacherBio {
+    flex-basis: 300px;
+    flex-grow: 3;
+}
+
+.teacherBio h4 {
+    font-size: calc(38px + (48 - 38) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    line-height: 120%;
+
+}
+
+.teacherBioCardInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: calc(30px + (40 - 30) * ((100vw - 375px) / (1280 - 375)));
+    column-gap: calc(10px + (90 - 10) * ((100vw - 375px) / (1280 - 375)));
+    margin-top: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+
+}
+
+.teacherBioCard img {
+    width: 36px;
+}
+
+.teacherBioCard span {
+    display: block;
+    margin-top: 10px;
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+}
+
+
