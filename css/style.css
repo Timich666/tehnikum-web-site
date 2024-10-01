@@ -11,7 +11,7 @@ section {
     padding: 0 calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
 
 }
-section.hello2, .hello4, .diplom, .SaleContainer, .hello5, .hello6, .teacher, .review {
+section.hello2, .hello4, .diplom, .SaleContainer, .hello5, .hello6, .teacher, .review, .hello7, .hello8, .lastPage {
     margin-top: calc(11vw + 18.5px);
 }
 
@@ -148,6 +148,13 @@ p {
     align-items: center;
     background-color: #6E3ABA;
     padding: calc(4.4vw + 23.40px) 0 calc(5.2vw + 21.5px);
+}
+
+.SaleContainer h2 {
+    font-weight: 700px;
+
+
+
 }
 
 h3 {
@@ -356,6 +363,204 @@ line-height: 140%;
     justify-content: center;
 }
 
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    display: none;
+
+}
+
+.popUp {
+    background: #F0F7FD;
+    width: calc(326px + (800 - 326) * ((100vw - 375px) / (1280 - 375)));
+    height: 80vh;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: none;
+
+}
+
+.form {
+    width: 320px;
+}
+
+.form h4 {
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+
+    border: 0;
+    border-bottom: 1px solid #a1a1a1;
+    outline: 0;
+    background: transparent;
+
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 0;
+}
+
+.form button {
+    margin-top: 30px;
+}
+
+.thankYouPage {
+    background: #222;
+    width: calc(326px + (800 - 326) * ((100vw - 375px) / (1280 - 375)));;
+    height: 80vh;
+    border-radius: 12px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    display: none;
+}
+
+.thankYouPage h2 {
+    margin-bottom: 10px;
+}
+
+.schoolInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 97px;
+}
+
+.bestSchool {
+    width: 426px;
+}
+
+.directions h2 {
+    font-size: calc(2.7vw + 24px);
+    font-weight: 700;
+    line-height: 68.32px;
+    margin-bottom: 5px;
+
+
+}
+
+
+.bestSchool p {
+font-size: 27px;
+font-weight: 600;
+line-height: 37.8px;
+
+}
+
+.directions {
+    width: 461px;
+    height: 247px;
+}
+
+
+
+.hello8 h2 {
+    margin-bottom: calc((-0.7vw) + 22.5px);
+}
+
+.hello8 p {
+    margin-top: 0;
+    margin-bottom: calc((-0.4vw) + 22.5px);
+}
+
+.hello8 img {
+    width: 328px;
+
+}
+
+.studentsPhoto {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.lastPage {
+    display: flex;
+    background-color: #222;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 80px;
+
+}
+
+.lastPage span {
+    color: #FFFFFF;
+    
+}
+
+.lastH h2 {
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.lastH {
+    width: 424px;
+    height: 272px;
+}
+
+.lastPage span {
+    padding-top: calc(4.3vw + 24px);
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.popUp2 {
+    background: #F0F7FD;
+    width: calc(327px + (475 - 327) * ((100vw - 375px) / (1280 - 375)));
+    height: 80vh;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form2 {
+    width: 328px;
+}
+
+.form2 h4 {
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+}
+
+.form2 input {
+    display: block;
+    width: 100%;
+
+    border: 0;
+    border-bottom: 1px solid #a1a1a1;
+    outline: 0;
+    background: transparent
+
+}
+
+.form2 button {
+    margin-top: 30px;
+}
 
 
 
